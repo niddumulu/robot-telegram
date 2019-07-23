@@ -11,19 +11,17 @@ while run.lower()=="passwde":
       detik = 0
       menit = menit+1
       if menit == 1 :
-          from config import *
-          client.send_message('cryptoindobot', '/r steem sbd') 
+          from kirim import *
+          
       if menit == 2 :
-          from config import *
-          for message in client.iter_messages('cryptoindobot', limit=1):
-          print(utils.get_display_name(message.sender), message.message) 
+          from pesan import *
+           
       if menit == 15 :
-          from config import *
-          client.send_message('cryptoindobot', '/r steem sbd') 
+          from kirim import *
+          
       if menit == 16 :
-          from config import *
-           for message in client.iter_messages('cryptoindobot', limit=1):
-          print(utils.get_display_name(message.sender), message.message)
+          from pesan import *
+           
       if menit > 29 :
          menit = -1
         
