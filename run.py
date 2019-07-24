@@ -30,15 +30,3 @@ while run.lower()=="dia":
   seconds = (seconds+1)
   print (minutes," : ", seconds)
   time.sleep(.1)
-
-
-
-   #for message in client.iter_messages('steemsbd', limit=1):
-         #print(utils.get_display_name(message.sender), message.message)
-         #pecah = (message.message)
-         #simpan = pecah[78:84]
-         #file_simpan = open("data.txt", "r+")
-         #teks = file_simpan.readlines()
-         #teks = format(simpan)+"\n"
-         #file_simpan.write(teks)
-         #file_simpan.close()
