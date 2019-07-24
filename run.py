@@ -24,9 +24,9 @@ while run.lower()=="dia":
          file_simpan.write(teks)
          file_simpan.close()
       
-    if minutes == 7:
+    if minutes == 15:
       minutes = 0
   #os.system('clear')
   seconds = (seconds+1)
   print (minutes," : ", seconds)
-  time.sleep(.1)
+  time.sleep(1)
