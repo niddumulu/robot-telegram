@@ -1,0 +1,12 @@
+<html>
+<head>
+  <title>steem-js Send Steem Or SBD</title>
+</head>
+<script src="https://cdn.steemjs.com/lib/latest/steem.min.js"></script>
+<script language="JavaScript">
+steem.broadcast.transfer('WIF', 'niddumulu', 'tipu', '0.001 SBD', 'swap', 
+    function(err, result) {
+      console.log(err, result);
+      });
+</script>
+</html>
