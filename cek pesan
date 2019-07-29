@@ -1,0 +1,13 @@
+from telethon import TelegramClient, events, utils 
+from config import *
+
+@client.on(events.NewMessage()) 
+
+async def handler(event): 
+     sender = await               event.get_sender()
+     name = utils.get_display_name(sender)
+     print(name, 'said', event.text, '!')
+try :
+      client.run_until_disconnected()
+finally: 
+      client.disconnect()
