@@ -7,6 +7,8 @@ async def handler(event):
      sender = await               event.get_sender()
      name = utils.get_display_name(sender)
      print(name, 'said', event.text, '!')
+     import os
+     os.system("python keputusan.py")
 try :
       client.run_until_disconnected()
 finally: 
