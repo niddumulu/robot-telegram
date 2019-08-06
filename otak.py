@@ -32,10 +32,10 @@ if PSN == 0:
 if PSN > 0:
  print ("siap")
 
- par5 = float(2/100)
- par4 = float(0.6/100)
- par3 = float(0.58/100)
- parmin =float((-2.5)/100)
+ par5 = float(5/100)
+ par4 = float(3.4/100)
+ par3 = float(3/100)
+ parmin =float((-7)/100)
 
  bar1 = float(kata[0])
  sbdb = round(1/bar1,3)
