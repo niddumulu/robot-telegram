@@ -1,5 +1,5 @@
 #robot1, mendapatkan daftar harga
-from configrobot1 import *
+from configrobot import *
 import time
 import os
 
