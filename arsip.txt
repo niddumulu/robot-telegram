@@ -1,1 +1,0 @@
-JUAL os.system("UNLOCK=xxxx steempy transfer tipu 1 STEEM swap")
