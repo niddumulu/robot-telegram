@@ -1,3 +1,1 @@
-JUAL os.system("UNLOCK=P5KUoeUZ459EDi3oGdQzrTibCjBi4ou89ZLZLKa4fQWVHrxg2MED steempy transfer tipu 1 STEEM swap")
-JUAL os.system("UNLOCK=P5KUoeUZ459EDi3oGdQzrTibCjBi4ou89ZLZLKa4fQWVHrxg2MED steempy transfer tipu 1 STEEM swap")
-JUAL os.system("UNLOCK=P5KUoeUZ459EDi3oGdQzrTibCjBi4ou89ZLZLKa4fQWVHrxg2MED steempy transfer tipu 0.242 SBD swap")
+JUAL os.system("UNLOCK=xxxx steempy transfer tipu 1 STEEM swap")
